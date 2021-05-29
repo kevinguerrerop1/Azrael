@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_search_location_solid"
+            android:title="@string/key1" />
+        <item
+            android:id="@+id/nav_contactos"
+            android:icon="@drawable/ic_user_friends_solid"
+            android:title="@string/key2" />
+        <item
+            android:id="@+id/nav_camara"
+            android:icon="@drawable/ic_camera_retro_solid"
+            android:title="Tools" />
+    </group>
+    <item android:title="Local">
+        <menu>
+            <item
+                android:id="@+id/AgLocal"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/menu1" />
+
+            <item
+                android:id="@+id/ListLocal"
+                android:icon="@drawable/ic_list_black_24dp"
+                android:title="@string/menu2" />
+
+        </menu>
+    </item>
+    <item android:title="Remoto">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/menu1" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
